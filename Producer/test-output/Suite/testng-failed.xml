@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="sanity Test(failed)">
+    <classes>
+      <class name="com.Test.Moovicart.Producer.LoginTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="LoginPF"/>
+        </methods>
+      </class> <!-- com.Test.Moovicart.Producer.LoginTest -->
+    </classes>
+  </test> <!-- sanity Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
